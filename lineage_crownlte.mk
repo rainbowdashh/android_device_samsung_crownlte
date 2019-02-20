@@ -4,9 +4,9 @@
 $(call inherit-product, device/samsung/crownlte/full_crownlte.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_crownlte
+PRODUCT_NAME := lineage_crownlte
 
 BUILD_FINGERPRINT := samsung/star2ltexx/star2lte:8.0.0/R16NW/G965FXXU1ARCC:user/release-keys
 
